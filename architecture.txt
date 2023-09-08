@@ -1,0 +1,21 @@
+--Register
+    -fname
+    -lname
+    -email
+    -password
+    -age
+    -gender
+    -country
+    -watchedVideos[]
+
+--Videos
+    -title
+    -likes
+        -count
+        -userIds[]
+    -comments
+        -count
+        -userId
+        -text
+        -time
+    
